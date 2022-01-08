@@ -1,89 +1,71 @@
-﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
+﻿@model IEnumerable<ColoreEntrega2.Models.Vagas>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<section id="search-jobs" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8  mx-auto">
+                    <h3>Encontre sua vaga</h3>
+                    <form class="row g-2 needs-validation" novalidate>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Cargo Ex: Analista de RH"
+                                required>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Tipo Ex: PCD" required>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Região</option>
+                                <option value="1">RJ</option>
+                                <option value="2">SP</option>
+                                <option value="3">MG</option>
+                            </select>
+                        </div>
+                        <div class="col-12 d-grid gap-2">
+                            <button class="btn btn-primary" type="submit">Pesquisar Vaga</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recent-jobs" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center">Vagas Recentes </h3>
+                @foreach (var item in Model) {
+                <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
+                    <div class="card text-center my-3">
+                        <div class="card-header">
+                             @Html.DisplayFor(modelItem => item.nivel)
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)
+                            </p>
+                            <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-primary" type="button">Me Candidatar</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Hoje
+                        </div>
+                    </div>
+                </div>
+               }
+               
+                <div class="row">
+                    <div class="d-grid my-3 col-3 mx-auto">
+                        <a class="btn btn-primary" type="button">Todas Vagas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.salario)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.beneficios)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.area)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.escolaridade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.experiencia)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.experienciaArea)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.idiomas)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.idEmpresa)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.salario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.beneficios)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.area)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.escolaridade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.experiencia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.experienciaArea)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.idiomas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.idEmpresa)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+
+s
