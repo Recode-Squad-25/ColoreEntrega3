@@ -1,4 +1,7 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using ColoreEntrega2.Models;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -9,7 +12,7 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Juliana
-//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Leonardo
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-IGD0CBU\SQLEXPRESS;Initial Catalog=Colore;Integrated Security=True"));
