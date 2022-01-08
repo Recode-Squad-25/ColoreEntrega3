@@ -1,5 +1,25 @@
-html {
-  font-size: 14px;
+* {
+    margin: 0;
+}
+
+:root {
+    --cor00: #ECBDD2;
+    --cor01: #f3713d;
+    --cor02: #fec730;
+    --cor03: #d52f5c;
+    --cor04: #eb3c4b;
+    --cor05: #c1236c;
+    --cor06: #60ace0;
+    --cor07: #5cd1f5;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+html,
+body {
+    height: 100%;
+    color: var(--preto);
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -7,12 +27,47 @@ html {
     font-size: 16px;
   }
 }
+<<<<<<< HEAD
 
-html {
-  position: relative;
-  min-height: 100%;
-}
 
 body {
-  margin-bottom: 60px;
+    
+    color: var(--branco);
+    background-color: var(--cor00); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ECBDD2, #f3713d, #fec730, #d52f5c, #eb3c4b, #c1236c, #60ace0, #5cd1f5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ECBDD2, #f3713d, #fec730, #d52f5c, #eb3c4b, #c1236c, #60ace0, #5cd1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.divCor05 {
+    display: block;
+    border-radius: 20%;
+    background-color: var(--cor05);
+    background-repeat: no-repeat;
+    color: var(--branco);
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    background-color: var(--cor00);
+    border-radius: 30%;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--cor03);
+}
+
+img{
+    border-radius:5%;
+}
+
+.pesquisa{
+    border-radius:5%;
+}
+=======
+>>>>>>> 1f734c601c64e65905b043e908700a8d40df9814
