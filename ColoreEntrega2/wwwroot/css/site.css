@@ -1,48 +1,42 @@
-* {
-    margin: 0;
-}
-
 :root {
-    --cor00: #ECBDD2;
-    --cor01: #f3713d;
-    --cor02: #fec730;
-    --cor03: #d52f5c;
-    --cor04: #eb3c4b;
-    --cor05: #c1236c;
-    --cor06: #60ace0;
-    --cor07: #5cd1f5;
-    --branco: #ffffff;
-    --preto: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    color: var(--preto);
+html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+
+div {
+    margin: 1px;
+    padding: 2px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
+
+    .login {
+        position: absolute;
+        top: 200px;
+        left: 700px;
+    }
 }
-<<<<<<< HEAD
 
 
 body {
-    
-    color: var(--branco);
-    background-color: var(--cor00); /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ECBDD2, #f3713d, #fec730, #d52f5c, #eb3c4b, #c1236c, #60ace0, #5cd1f5); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ECBDD2, #f3713d, #fec730, #d52f5c, #eb3c4b, #c1236c, #60ace0, #5cd1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 60px;
 }
 
 .divCor05 {
     display: block;
     border-radius: 20%;
     background-color: var(--cor05);
-    background-repeat: no-repeat;
     color: var(--branco);
     margin: 5px;
     padding: 5px;
@@ -58,16 +52,35 @@ body {
     font-weight: bold;
 }
 
-.button:hover {
-  background-color: var(--cor03);
+    .button:hover {
+        background-color: var(--cor03);
+    }
+
+.pesquisa {
+    border-radius: 5%;
 }
 
-img{
-    border-radius:5%;
+div {
+    border: solid;
 }
 
-.pesquisa{
-    border-radius:5%;
+.social:hover {
+    background-image: linear-gradient(to bottom right, #EA3C4A, #FEA432, #FFE431);
 }
-=======
->>>>>>> 1f734c601c64e65905b043e908700a8d40df9814
+
+
+
+.icon {
+    width: 30px;
+    border-radius: 50%;
+}
+
+    .icon:hover {
+        background-image: linear-gradient(to bottom right, #00FFFF, #6725AE);
+        text-decoration: none;
+    }
+
+.homeCard {
+    background-image: url(https://ps.w.org/bp-job-manager/assets/icon-256x256.png?rev=2353423);
+    border-radius:10px;
+}
