@@ -8,89 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ColoreEntrega2
 build_property.RootNamespace = ColoreEntrega2
-build_property.ProjectDir = C:\Colore-entrega2\ColoreEntrega2\
+build_property.ProjectDir = C:\Users\victo\Desktop\Clone\ColoreEntrega2\ColoreEntrega2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Colore-entrega2\ColoreEntrega2
+build_property.MSBuildProjectDirectory = C:\Users\victo\Desktop\Clone\ColoreEntrega2\ColoreEntrega2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Create.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Curriculoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Curriculoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Curriculoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Curriculoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Curriculoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Delete.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Details.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Edit.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Empresas.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Empresas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRW1wcmVzYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Empresas/Index.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Empresas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Home/Index.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/Curriculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXJyaWN1bG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/EditarCurriculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXJDdXJyaWN1bG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Home/Privacy.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/PainelDoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWluZWxEb1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Home/Sobre.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Home/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Shared/Error.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Create.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Delete.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Details.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Edit.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Index.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Vagas/Vagas.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Vagas/Vagas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcVmFnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/_ViewImports.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/_ViewStart.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Colore-entrega2/ColoreEntrega2/Views/Shared/_Layout.cshtml]
+[C:/Users/victo/Desktop/Clone/ColoreEntrega2/ColoreEntrega2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aaorrnidax
