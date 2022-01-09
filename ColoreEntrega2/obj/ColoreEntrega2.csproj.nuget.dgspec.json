@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
         "packagesPath": "C:\\Users\\Julia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\obj\\",
+=======
+    "C:\\Users\\Patricia Brandão\\Desktop\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Patricia Brandão\\Desktop\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Patricia Brandão\\Desktop\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+        "projectName": "ColoreEntrega2",
+        "projectPath": "C:\\Users\\Patricia Brandão\\Desktop\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+        "packagesPath": "C:\\Users\\Patricia Brandão\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Patricia Brandão\\Desktop\\ColoreEntrega2\\ColoreEntrega2\\obj\\",
+>>>>>>> feature/usuario
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Patricia Brandão\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> feature/usuario
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +62,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -91,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

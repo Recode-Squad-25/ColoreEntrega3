@@ -1,12 +1,18 @@
-﻿using ColoreEntrega2.Models;
+using ColoreEntrega2.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using ColoreEntrega2.Data;
+using ColoreEntrega2.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var connectionString = builder.Configuration.GetConnectionString("ColoreEntrega2ContextConnection");builder.Services.AddDbContext<ColoreEntrega2Context>(options =>
+    options.UseSqlServer(connectionString));builder.Services.AddDefaultIdentity<ColoreEntrega2User>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ColoreEntrega2Context>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 //Conex�o banco de dados Patricia
-//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-DB6AS9Q; Initial Catalog=Colore; Integrated Security = True"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-DB6AS9Q; Initial Catalog=Colore; Integrated Security = True"));
 
 //Conex�o banco de dados Jo�o Victor
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
@@ -33,11 +39,15 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+    endpoints.MapRazorPages();
+});
 
 app.Run();
