@@ -517,3 +517,14 @@ C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\obj\Debu
 C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ref\ColoreEntrega2.dll
 C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.pdb
 C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.genruntimeconfig.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.csproj.AssemblyReference.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.AssemblyInfoInputs.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.AssemblyInfo.cs
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.csproj.CoreCompileInputs.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.RazorAssemblyInfo.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.RazorAssemblyInfo.cs
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ref\ColoreEntrega2.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\ptoo\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.pdb

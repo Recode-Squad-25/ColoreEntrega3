@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
+﻿@model IEnumerable<Colore_Entrega2.Models.Empresa>
 
 @{
     ViewData["Title"] = "Pagina inicial - Empresas";
@@ -20,14 +20,14 @@
                 <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
                 <div class="caption">
                     <h4 class="group inner list-group-item-heading">
-                         @Html.DisplayFor(modelItem => item.nome)</h4>
+                         @item.nome</h4>
                     <p class="group inner list-group-item-text">
-                         @Html.DisplayFor(modelItem => item.email) - CNPJ: @Html.DisplayFor(modelItem => item.cnpj)
+                         @item.email - CNPJ: @item.cnpj
 		     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
-                                @Html.DisplayFor(modelItem => item.telefone)</p>
+                                @item.telefone</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <a class="btn btn-success" asp-action="Details" asp-route-id="@item.id">Saiba mais</a>
@@ -35,8 +35,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-	}       
-        </div>
+        </div>	      
     </div>
-</div>
+     
+} 
+ </div>

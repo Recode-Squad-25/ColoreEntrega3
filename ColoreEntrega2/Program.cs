@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Juliana
-builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
+//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Leonardo
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-IGD0CBU\SQLEXPRESS;Initial Catalog=Colore;Integrated Security=True"));
@@ -21,7 +21,7 @@ builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data So
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Wesley
-//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-1LSE35M;Initial Catalog=Colore;Integrated Security=True"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-1LSE35M;Initial Catalog=Entrega;Integrated Security=True"));
 
 var app = builder.Build();
 

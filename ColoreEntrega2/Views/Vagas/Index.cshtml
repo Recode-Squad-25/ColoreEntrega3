@@ -1,7 +1,7 @@
-﻿@model IEnumerable<ColoreEntrega2.Models.Vagas>
+﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Pagina inicial  vagas";
 }
 
 <section id="search-jobs" class="d-flex align-items-center">
@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-10 col-lg-8  mx-auto">
                     <h3>Encontre sua vaga</h3>
-                    <form class="row g-2 needs-validation" novalidate>
+                    <form class="row g-2 needs-validation" asp-action="Pesquisar" method="post">
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <input type="text" class="form-control" id="validationCustom01" placeholder="Cargo Ex: Analista de RH"
                                 required>
