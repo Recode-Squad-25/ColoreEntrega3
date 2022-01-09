@@ -21,9 +21,15 @@ namespace ColoreEntrega2.Controllers
         }
 
         // GET: Vagas
-        public async Task<IActionResult> Index()
+        public IActionResult Index(string busca)
         {
-            return View(await _context.vagas.ToListAsync());
+            var vagas = from s in _context.vagas select s;
+
+            if (!String.IsNullOrEmpty(busca))
+            {
+                vagas = vagas.Where(s => s.area.ToUpper().Contains(busca.ToUpper()) || s.escolaridade.ToUpper().Contains(busca.ToUpper()));
+            }
+            return View(vagas);
         }
 
         // GET: Vagas/Details/5

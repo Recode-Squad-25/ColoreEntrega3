@@ -9424,19 +9424,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leona\\.nuget\\packages\\": {}
+    "C:\\Users\\Julia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Colore-entrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+      "projectUniqueName": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
       "projectName": "ColoreEntrega2",
-      "projectPath": "C:\\Colore-entrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
-      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\Colore-entrega2\\ColoreEntrega2\\obj\\",
+      "projectPath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+      "packagesPath": "C:\\Users\\Julia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\workspace\\C#\\ColoreEntrega2\\ColoreEntrega2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
