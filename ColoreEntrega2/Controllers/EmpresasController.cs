@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ColoreEntrega2.Models;
 using Colore_Entrega2.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ColoreEntrega2.Controllers
 {
@@ -45,6 +46,7 @@ namespace ColoreEntrega2.Controllers
         }
 
         // GET: Empresas/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
