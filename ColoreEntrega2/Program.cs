@@ -9,10 +9,10 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-DB6AS9Q; Initial Catalog=Colore; Integrated Security = True"));
 
 //Conex�o banco de dados Jo�o Victor
-builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
+//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Juliana
-//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Leonardo
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-IGD0CBU\SQLEXPRESS;Initial Catalog=Colore;Integrated Security=True"));
