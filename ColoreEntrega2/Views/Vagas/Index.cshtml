@@ -5,7 +5,7 @@
 }
 
 <section id="search-jobs" class="d-flex align-items-center">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-sm-12 col-md-10 col-lg-8  mx-auto">
                     <h3>Encontre sua vaga</h3>
@@ -13,8 +13,10 @@
                     {
                     <div class="row">
                         <div class="d-grid my-3 col-3 mx-auto">
-                            Procure por área ou escolaridade : @Html.TextBox("busca")
-                            <input type="submit" value="Pesquisar" />
+                            <label>Procure por área ou escolaridade:</label>
+                            <label><p>@Html.TextBox("busca")</p></label>
+                            <input type="submit" value="Pesquisar" class="btn btn-dark"/>
+                            
                         </div>
                     </div>                    
                     }
@@ -55,13 +57,14 @@
                              @Html.DisplayFor(modelItem => item.area)
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h5>
-                            <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)
-                            </p>
-                            <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-primary" type="button">Me Candidatar</a>
+                            <h4 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h4>
+                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>
+                            <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)</p>                             
+                            <h6>@item.beneficios</h6>
+                            <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
                         </div>
                         <div class="card-footer text-muted">
-                            Hoje
+                           <p class="card-text"> Salario - R$ @item.salario </p>
                         </div>
                     </div>
                 </div>
