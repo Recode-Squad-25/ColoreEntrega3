@@ -1,0 +1,114 @@
+﻿ @model IEnumerable<Colore_Entrega2.Models.Vagas>
+
+@{
+    ViewData["Title"] = "Alterar Informações";
+}
+<div class="mae">
+        <div class="left-curriculo">
+            <div class="user row">
+                <img src="~/media/user-img.png" alt="">
+            </div>
+            <div class="title row">
+                <h1>Informações</h1>
+            </div>
+        </div>
+        <div class="row right-curriculo">
+          <div class="row card-right-curriculo">
+              <h5 class="h5 text-center">Insira suas novas informações</h5>
+
+              <div class="row g-1">
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Nome Social" aria-label="Nome-Social">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="CPF" aria-label="CPF">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="RG" aria-label="RG">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Nascimento" aria-label="Data-De-Nascimento">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="CEP" aria-label="CEP">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Endereço" aria-label="Endereco">
+                </div>
+              </div>
+
+              <div class="row g-1 alinhamento">
+              <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="N°" aria-label="Numero">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Complemento" aria-label="Complemento">
+                </div>
+              </div>
+
+              <div class="row g-1 alinhamento">
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Bairro" aria-label="Bairro">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Cidade" aria-label="Cidade">
+                </div>
+              </div>
+
+              <div class="row g-1 alinhamento">
+                <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="UF" aria-label="UF">
+                </div>
+                <div class="col-md-6 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="País" aria-label="País">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Área de atuação" aria-label="Area-de-atuacao">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Experiência?" aria-label="experiencia">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Tempo" aria-label="Tempo">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Escolaridade" aria-label="Escolaridade">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Curso" aria-label="Curso">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Instituição" aria-label="Instituicao">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col">
+                  <button class="botao btn btn-success" type="submit">
+                   <a asp-controller="Home" asp-action="#LINKARbackPRASalvar">Salvar alterações</a>
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="botao btn btn-dark" type="submit">
+                    <a asp-controller="Home" asp-action="Index">Fazer logout</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
