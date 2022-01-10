@@ -1,11 +1,33 @@
 ﻿@model Colore_Entrega2.Models.Vagas
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes Vagas";
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayFor(model => model.titulo)</h1>
 
+<hr />
+    
+ <div class="container">
+     <div class="row">  
+            <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="~/images/vagas/@(Model?.id).png" alt="@Model.titulo">
+                      <div class="card-body">
+                        <h4 class="card-title"> Área:  @Html.DisplayFor(model => model.area)</h4>
+                        <h5 class="card-title"> Salário:  @Html.DisplayFor(model => model.salario)</h5>
+                        <p class="card-text">@Html.DisplayFor(model => model.descricao)</p>
+                        <p class="card-text">@Html.DisplayFor(model => model.beneficios)</p>
+                        <p class="card-text"> Escolaridade Exigida: @Html.DisplayFor(model => model.escolaridade)</p>
+                        <p class="card-text"> Experiência de trabalho Exigida: @Html.DisplayFor(model => model.experiencia)</p>
+                        <p class="card-text"> Experiência de trabalho na Área de @Html.DisplayFor(model => model.area) Exigida: @Html.DisplayNameFor(model => model.experiencia)</p>
+                        <p class="card-text"> Idiomas desejavel: @Html.DisplayFor(model => model.idiomas)</p>
+                    </div>
+             </div>
+       </div>
+</div>
+
+
+<!-- 
 <div>
     <h4>Vagas</h4>
     <hr />
@@ -76,3 +98,4 @@
     <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+-->

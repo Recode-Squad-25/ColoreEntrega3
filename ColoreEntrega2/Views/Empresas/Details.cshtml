@@ -4,7 +4,7 @@
     ViewData["Title"] = "Detalhes Empresa";
 }
 
-<h1>@Html.DisplayNameFor(model => model.nome)</h1>
+<h1>@Html.DisplayFor(model => model.nome)</h1>
 
 <div>
     <hr />
@@ -14,7 +14,7 @@
             <div class="card" style="width: 18rem;">
                       <img class="card-img-top" src="~/images/empresas/@(Model?.id).jpg" alt="@Model.nome">
                       <div class="card-body">
-                        <h5 class="card-title"> E-mail : @Html.DisplayNameFor(model => model.email)</h5>
+                        <h5 class="card-title"> E-mail : @Html.DisplayFor(model => model.email)</h5>
                         <p class="card-text"> Telefone:  @Html.DisplayFor(model => model.telefone)</p>
                         <p class="card-text"> CNPJ:  @Html.DisplayFor(model => model.cnpj)</p>
                       </div>
