@@ -8,6 +8,19 @@
 
 <div>
     <hr />
+    
+    <div class="container">
+        <div class="row">  
+            <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="~/images/empresas/@(Model?.id).jpg" alt="@Model.nome">
+                      <div class="card-body">
+                        <h5 class="card-title"> E-mail : @Html.DisplayNameFor(model => model.email)</h5>
+                        <p class="card-text"> Telefone:  @Html.DisplayFor(model => model.telefone)</p>
+                        <p class="card-text"> CNPJ:  @Html.DisplayFor(model => model.cnpj)</p>
+                      </div>
+             </div>
+
+<!-- 
     <dl class="row">
         <dd class = "col-sm-10">
             Logo
@@ -36,6 +49,6 @@
     </dl>
 </div>
 <div>
-    <!--<a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
-    <a asp-action="Index">Back to List</a>-->
-</div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>-->

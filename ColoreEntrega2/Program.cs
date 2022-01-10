@@ -30,7 +30,7 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-1LSE35M;Initial Catalog=Entrega;Integrated Security=True"));
 
 //Conexão online
-builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Server=tcp:coloreentrega2dbserver.database.windows.net,1433;Initial Catalog=ColoreEntrega2_db;Persist Security Info=False;User ID=julianamesquita;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=tcp:coloreentrega2dbserver.database.windows.net,1433;Initial Catalog=ColoreEntrega2_db;User Id=julianamesquita@coloreentrega2dbserver;Password=124578colore"));
 
 var app = builder.Build();
 
