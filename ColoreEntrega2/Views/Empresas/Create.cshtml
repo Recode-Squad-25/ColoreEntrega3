@@ -1,12 +1,12 @@
 ﻿@model Colore_Entrega2.Models.Empresa
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Cadastro Empresa - Área Administrador";
 }
 
-<h1>Create</h1>
 
-<h4>Empresa</h4>
+
+<h4>Preencha os dados da empresa:</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="senha" class="control-label"></label>
-                <input asp-for="senha" class="form-control" />
+                <input asp-for="senha" class="form-control" type="password"/>
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -38,14 +38,14 @@
                 <span asp-validation-for="cnpj" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Empresas">Lista todas as empresas</a>
 </div>
 
 @section Scripts {

@@ -33,6 +33,12 @@ namespace ColoreEntrega2.Controllers
             return View(vagas);
         }
 
+        // GET: Vagas
+        public async Task<IActionResult> Vagas()
+        {
+            return View(await _context.empresa.ToListAsync());
+        }
+
         // GET: Vagas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -51,8 +57,7 @@ namespace ColoreEntrega2.Controllers
             return View(vagas);
         }
 
-        // GET: Vagas/Create
-        [Authorize]
+        // GET: Vagas/Create      
         public IActionResult Create()
         {
             return View();
