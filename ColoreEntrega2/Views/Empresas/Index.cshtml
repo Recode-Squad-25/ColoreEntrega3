@@ -13,30 +13,54 @@
                 class="glyphicon glyphicon-th"></span>Grid</a>
         </div>
     </div>
-@foreach (var item in Model) {
-    <div id="products" class="row list-group">
-        <div class="item  col-xs-4 col-lg-4">
-            <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                         @item.nome</h4>
-                    <p class="group inner list-group-item-text">
-                         @item.email - CNPJ: @item.cnpj
-		     </p>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6">
-                            <p class="lead">
-                                @item.telefone</p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <a class="btn btn-success" asp-action="Details" asp-route-id="@item.id">Saiba mais</a>
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+            <div id="products" class="row list-group">
+                <div class="item  col-xs-4 col-lg-4">
+                    <div class="thumbnail">
+                        <img class="group list-group-image" src="~/images/@(item.id).jpg" alt="@item.nome"/>
+                        <div class="caption">
+                            <h4 class="group inner list-group-item-heading">
+                                @item.nome</h4>
+                            <p class="group inner list-group-item-text">
+                                @item.email - Telefone: @item.telefone
+                            </p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        CNPJ: @item.cnpj</p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.id">Saiba mais</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div>	      
             </div>
-        </div>	      
-    </div>
-     
-} 
- </div>
+        }
+    }else{
+        <div id="products" class="row list-group">
+            <div class="item  col-xs-4 col-lg-4">
+                    <div class="thumbnail">
+                        <img class="group list-group-image" src="~/images/0.jpg" alt="Exemplo"/>
+                        <div class="caption">
+                            <h4 class="group inner list-group-item-heading">
+                                @Html.DisplayNameFor(model => model.nome)</h4>
+                            <p class="group inner list-group-item-text">
+                                @Html.DisplayNameFor(model => model.email) - Telefone: @Html.DisplayNameFor(model => model.telefone)
+                            </p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        CNPJ: @Html.DisplayNameFor(model => model.cnpj)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>	      
+            </div>
+        }
+</div>
