@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z6Hd4mH0ww1179lgQEsHvJSfyWpZwEE9/dvERVFFj5o=",
+  "Hash": "bx82/FyH32TetEJC7+eraPiaf7aXy/Hb3IS2ZJVL2po=",
   "Source": "ColoreEntrega2",
   "BasePath": "_content/ColoreEntrega2",
   "Mode": "Default",
@@ -1207,6 +1207,23 @@
       "OriginalItemSpec": "wwwroot\\images\\empresas\\4.jpg"
     },
     {
+      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\facebook.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/facebook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\facebook.png"
+    },
+    {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\index\\0.png",
       "SourceId": "ColoreEntrega2",
       "SourceType": "Discovered",
@@ -1256,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\index\\2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\instagram.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/instagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\instagram.png"
     },
     {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\pessoa1.png",
@@ -1426,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sobre\\Team goals-amico.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\twitter.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/twitter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\twitter.png"
     },
     {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\vagas\\0.png",

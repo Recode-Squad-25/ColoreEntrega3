@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "restored": true,
-      "restoreTime": "2022-01-10T13:38:58.0197504Z"
+      "restoreTime": "2022-01-10T14:28:03.8808624Z"
     }
   },
   "parameters": {
@@ -14,7 +14,7 @@
     "mssql1.resourceGroupName": {
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
-      "Value": "ColoreEntrega2"
+      "Value": "colore"
     }
   }
 }

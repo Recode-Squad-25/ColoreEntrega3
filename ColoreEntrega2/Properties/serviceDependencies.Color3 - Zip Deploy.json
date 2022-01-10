@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/coloreentrega2dbserver/databases/ColoreEntrega2_db",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/coloredbserver/databases/ColoreEntrega2_db",
       "type": "mssql.azure",
       "connectionId": "ConnectionStrings:ColoreEntrega2ContextConnection"
     }
