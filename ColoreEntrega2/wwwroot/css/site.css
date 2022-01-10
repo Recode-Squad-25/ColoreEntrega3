@@ -33,40 +33,18 @@ body {
     margin-bottom: 60px;
 }
 
-.divCor05 {
-    display: block;
-    border-radius: 20%;
-    background-color: var(--cor05);
-    color: var(--branco);
-    margin: 5px;
-    padding: 5px;
-}
-
-.button {
-    background-color: var(--cor00);
-    border-radius: 30%;
-    padding: 2px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: var(--branco);
-    font-weight: bold;
-}
-
-    .button:hover {
-        background-color: var(--cor03);
-    }
-
-.pesquisa {
-    border-radius: 5%;
-}
-
 -div {
-    border: solid;
+    border: solid blue;
 }
 
-.social:hover {
-    background-image: linear-gradient(to bottom right, #EA3C4A, #FEA432, #FFE431);
+.social {
+    border: solid thin #ced4da;
 }
+
+    .social:hover {
+        background-image: linear-gradient(to bottom right, #EA3C4A, #FEA432, #FFE431);
+        box-shadow: 5px 5px 5px #495057;
+    }
 
 
 

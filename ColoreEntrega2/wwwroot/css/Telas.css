@@ -1,19 +1,19 @@
-/*-------------------------PAGINA 1 - PAINEL DO USUARIO*-----------------/
+/-------------------------PAGINA 1 - PAINEL DO USUARIO-----------------/
 /*MARGEM 0 */
 * {
     margin: 0;
 }
-/*CONFIG DE TODA A PAGINA*/
+/CONFIG DE TODA A PAGINA/
 .main {
+    
     width: 80vw;
     height: 100vh;
     display: flex;
     background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
     color: black;
 }
-/*CONFIG DA PARTE ESQUEDA DA PAG (FOTO E TITULO)*/
+/CONFIG DA PARTE ESQUEDA DA PAG (FOTO E TITULO)/
 .left {
-    margin-left: 0;
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -21,7 +21,7 @@
     align-items: center;
     flex-direction: column;
 }
-/*CONFIG DA PARTE DIREITA DA PAG (SOMENTE TAMANHO E ALINHAMENTO)*/
+/CONFIG DA PARTE DIREITA DA PAG (SOMENTE TAMANHO E ALINHAMENTO)/
 .right {
     width: 50vw;
     height: 100vh;
@@ -31,7 +31,7 @@
     color: white;
     
 }
-/*CONFIG DA PARTE DIREITA DA PAG (CARD, INPUTS, FORMULARIO ETC)*/
+/CONFIG DA PARTE DIREITA DA PAG (CARD, INPUTS, FORMULARIO ETC)/
 .card-right {
     height: 80%;
     width: 80%;
@@ -43,74 +43,96 @@
     border-radius: 20px;
     box-shadow: 2px 10px 40px #00000056;
 }
-/*TAMANHO E SOMBRA DOS BOTOES*/
+/TAMANHO E SOMBRA DOS BOTOES/
 .botao {
     height: 10vh;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-/*COR E TIRAR COR AZUL DE LINK DOS BOTOES*/
+/COR E TIRAR COR AZUL DE LINK DOS BOTOES/
 .botao a {
     text-decoration: none;
     color: white;
 }
-/*TAMANHO DA IMAGEM DA TELA DE PainelDoUsuario (a que se mexe)*/
+/TAMANHO DA IMAGEM DA TELA DE PainelDoUsuario (a que se mexe)/
 .img {
     width: 400px;
 }
-/*MEDIA DE RESPONSIVIDADE*/
-@media (max-width: 600px) {
+/MEDIA DE RESPONSIVIDADE/
+@media (max-width: 530px) {
     .main {
         display: block;
+        width: 86vh;
+        background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
+        margin-left: -5vw;
     }
     .left{
-        width: 100vh;
-        margin-left: -90px;
-        background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
+        margin-left: 4vw;
+        width: 69vh;
+        
     }
     .right {
-        width: 100vh;
-        margin-left: -75px;
-        background-color: rgb(9, 165, 61);
+        width: 80vh;
+        margin-left: 7vw;
+    }
+    .card-right {
+        margin-left: -12.2vh;
     }
     .img {
         width: 300px;
     }
 }
-/*-------------------------------------------FIM DA PÁGINA 1-------------------------------*/
 
-/*-----------------------------------PÁGINA 2 - CURRICULO---------------------------------*/
-/*CONFIG DA DIV MAE (TELA TODA)*/
+@media (min-width: 530px) and (max-width: 1200px) {
+
+    .main {
+        height:50%;
+        width: 120%;
+        margin-left: -5vw;
+    }
+    .right {
+        margin-left: 0;
+    }
+    .img {
+        width: 250px;
+    }
+}
+
+
+/-------------------------------------------FIM DA PÁGINA 1-------------------------------/
+
+/-----------------------------------PÁGINA 2 - CURRICULO---------------------------------/
+/CONFIG DA DIV MAE (TELA TODA)/
 .mae {
     width: 80vw;
-    height: 110vh;
+    height: 112vh;
     display: flex;
     background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
     color: black;
     justify-content: center;
     border-radius: 20px;
 }
-/*CONFIG DA DIV ESQUERDA*/
-.left-curriculo{
-    width: 40vw;
+/CONFIG DA DIV ESQUERDA/
+.left-curriculo {
+    width: 50vw;
     height: 100vh;
     margin-top: -5vh;
-    margin-left: -10vw;
+    margin-left: -20vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-/*CONFIG DA DIV DIREITA*/
+/CONFIG DA DIV DIREITA/
 .right-curriculo {
     width: 50vw;
-    height: 99vh;
+    height: 100vh;
     display: flex;
 }
-/*CONFIG DO CARD DIREITO*/
+/CONFIG DO CARD DIREITO/
 .card-right-curriculo {
-    height: 109%;
+    height: 110%;
     width: 90%;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-left: 4.5vw;
     display: flex;
     justify-content: center;
@@ -121,81 +143,52 @@
     border-radius: 20px;
     box-shadow: 2px 10px 40px #00000056;
 }
-.formulario {
-    margin-left: -1px;
-}
-/*CONFIG DA FOTO DE AVATAR*/
+
+/CONFIG DA FOTO DE AVATAR/
 .user {
     width: 10vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
+
 }
-/*CONFIG DO TITULO ABAIXO DO AVATAR*/
+/CONFIG DO TITULO ABAIXO DO AVATAR/
 .title {
-    margin-left: 10vw; 
+    margin-left: 15vw; 
 }
-/*BOTÕES*/
+/BOTÕES/
 .botao {
     height: 10vh;
     width: 20vw;
 }
-
-/*RESPONSIVIDADE , CUIDADO AQUI. ESTÁ SEMPRE DO MENOR PRO MAIOR.*/
-@media (max-width:600px) {
-    .user {
-        width: 25vw;
-        margin-left: 5px
-    }
-    h1 {
-        margin-left: -35px;
-    }
-    .left-curriculo {
-        margin-left: 15vh;
-    }
-    .right-curriculo {
-        height: 187vh;
-        width: 100%;
-        margin-left: 0px;
-        background-color: rgb(9, 165, 61);
-    }
-    .mae {
-        display: block;
-        width: 80vw;
-        height: 100vh;
-    }
-    .card-right-curriculo {
-        margin-top: -10vh;
-        height: 195vh;
-        margin-left: -0.2vw;
-        width: 90vw;
-        flex-direction: column;
-        display: block;
-    }
-    .card-right-curriculo h5 {
-        margin-top: 3vh;
-        font-size: 15px;
-    }
-    .botao {
-        width: 35vw;
-    }
+.alinhamento {
 
 }
-@media (min-width: 601px) and (max-width:900px) {
+.formulario {
+    margin-left:4vw;
+}
+.f {
+    margin-left: 2vw;
+}
+/RESPONSIVIDADE , CUIDADO AQUI. ESTÁ SEMPRE DO MENOR PRO MAIOR./
+@media (max-width:530px) {
     .user {
-        width: 20vw;
+        width: 25vw;
+        margin-left: 20vw;
     }
     .left-curriculo {
-        margin-left: 25vh; 
+        margin-left: 15vh; 
     }
     .right-curriculo {
         height: 150%;
-        width: 110%;
-        background-color: rgb(9, 165, 61);
+        width: 100%;
     }
     .mae {
         display: block;
+        margin-left: -10vw;
+        width: 110vw;
     }
     .card-right-curriculo {
-        margin-left: 5vw;
+        margin-top: 20vh;
+        margin-left: 10vw;
         width: 90vw;
         flex-direction: column;
         display: block;
@@ -207,8 +200,61 @@
     .botao {
         width: 40vw;
     }
+    .formulario {
+        margin-left: -.1vw;
+    }
+    .f {
+        margin-left: .3vw;
+    }
+
+
 }
-@media (min-width: 901px) and (max-width:1000px) {
+@media (min-width: 530px) and (max-width:620px) {
+    .user {
+        width: 20vw;
+        margin-left: -20vw;
+    }
+    h1 {
+        margin-left: -32vw;
+    }
+    .left-curriculo {
+        margin-left: 25vh; 
+    }
+    .right-curriculo {
+        height: 205%;
+        width: 110%;
+       
+    }
+    .mae {
+        display: block;
+        margin-left: -5vw;
+        width: 110vw;
+    }
+    .card-right-curriculo {
+        margin-top: 20vh;
+        margin-left: 5vw;
+        width: 90vw;
+        flex-direction: column;
+        display: block;
+        height: 185vh;
+    }
+    .card-right-curriculo h5 {
+        margin-top: 3vh;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .botao {
+        width: 40vw;
+    }
+    .formulario {
+        margin-left: -.1vw;
+    }
+
+    .f {
+        margin-left: .3vw;
+    }
+}
+@media (min-width: 620px) and (max-width:900px) {
     .user {
         width: 20vw;
     }
@@ -218,14 +264,17 @@
     .right-curriculo {
         height: 108%;
         width: 110%;
-        background-color: rgb(9, 165, 61);
     }
     .mae {
         display: block;
+        margin-left: -18vw;
+        width: 110vw;
     }
     .card-right-curriculo {
-        margin-left: 5vw;
+        margin-top: 20vh;
+        margin-left: 15vw;
         width: 90vw;
+        height: 185vh;
         flex-direction: column;
         display: block;
     }
@@ -236,43 +285,57 @@
     .botao {
         width: 40vw;
     }
+    .formulario {
+        margin-left: -.1vw;
+    }
+
+    .f {
+        margin-left: .3vw;
+    }
 }
-@media (min-width: 1001px) and (max-width:1200px) {
+@media (min-width: 901px) and (max-width:1) {
     .user {
         width: 20vw;
     }
+
     .left-curriculo {
-        margin-left: 25vh; 
+        margin-left: 25vh;
     }
+
     .right-curriculo {
-        height: 110vh;
+        height: 108%;
         width: 110%;
-        background-color: rgb(9, 165, 61);
     }
+
     .mae {
         display: block;
+        margin-left: -18vw;
+        width: 110vw;
     }
+
     .card-right-curriculo {
-        margin-left: 5vw;
+        margin-top: 20vh;
+        margin-left: 15vw;
         width: 90vw;
+        height: 100vh;
         flex-direction: column;
         display: block;
     }
-    .card-right-curriculo h5 {
-        margin-top: 3vh;
-        font-size: 15px;
-    }
+
+        .card-right-curriculo h5 {
+            margin-top: 3vh;
+            font-size: 15px;
+        }
+
     .botao {
         width: 40vw;
     }
+
+    .formulario {
+        margin-left: -.1vw;
+    }
+
+    .f {
+        margin-left: .3vw;
+    }
 }
-
-
-
-
-
-
-
-
-
-

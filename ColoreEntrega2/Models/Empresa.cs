@@ -8,10 +8,10 @@ namespace Colore_Entrega2.Models
     {
         [Key]
         public int id { get; set; }
-        public string nome { get; set; }
-        public string email { get; set; }
-        public string senha { get; set; }
-        public string telefone { get; set; }
-        public string cnpj { get; set; }
+        public string? nome { get; set; }
+        public string? email { get; set; }
+        public string? senha { get; set; }
+        public string? telefone { get; set; }
+        public string? cnpj { get; set; }
     }
 }

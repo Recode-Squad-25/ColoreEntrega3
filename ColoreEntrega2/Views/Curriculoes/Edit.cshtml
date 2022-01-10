@@ -1,129 +1,114 @@
 ﻿@model Colore_Entrega2.Models.Curriculo
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Alterar Informações";
 }
+<div class="mae">
+        <div class="left-curriculo">
+            <div class="user row">
+                <img src="~/media/user-img.png" alt="">
+            </div>
+            <div class="title row">
+                <h1>Informações</h1>
+            </div>
+        </div>
+        <div class="row right-curriculo">
+          <div class="row card-right-curriculo">
+              <h5 class="h5 text-center">Insira suas novas informações</h5>
 
-<h1>Edit</h1>
+              <div class="row g-1">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Nome Social" aria-label="Nome-Social">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="CPF" aria-label="CPF">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="RG" aria-label="RG">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Nascimento" aria-label="Data-De-Nascimento">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="CEP" aria-label="CEP">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Endereço" aria-label="Endereco">
+                </div>
+              </div>
 
-<h4>Curriculo</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Sobrenome" class="control-label"></label>
-                <input asp-for="Sobrenome" class="form-control" />
-                <span asp-validation-for="Sobrenome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nome_Social" class="control-label"></label>
-                <input asp-for="Nome_Social" class="form-control" />
-                <span asp-validation-for="Nome_Social" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CPF" class="control-label"></label>
-                <input asp-for="CPF" class="form-control" />
-                <span asp-validation-for="CPF" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RG" class="control-label"></label>
-                <input asp-for="RG" class="form-control" />
-                <span asp-validation-for="RG" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Data_Nasc" class="control-label"></label>
-                <input asp-for="Data_Nasc" class="form-control" />
-                <span asp-validation-for="Data_Nasc" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CEP" class="control-label"></label>
-                <input asp-for="CEP" class="form-control" />
-                <span asp-validation-for="CEP" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Numero" class="control-label"></label>
-                <input asp-for="Numero" class="form-control" />
-                <span asp-validation-for="Numero" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Complemento" class="control-label"></label>
-                <input asp-for="Complemento" class="form-control" />
-                <span asp-validation-for="Complemento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Bairro" class="control-label"></label>
-                <input asp-for="Bairro" class="form-control" />
-                <span asp-validation-for="Bairro" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cidade" class="control-label"></label>
-                <input asp-for="Cidade" class="form-control" />
-                <span asp-validation-for="Cidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UF" class="control-label"></label>
-                <input asp-for="UF" class="form-control" />
-                <span asp-validation-for="UF" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pais" class="control-label"></label>
-                <input asp-for="Pais" class="form-control" />
-                <span asp-validation-for="Pais" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Area_Desejada" class="control-label"></label>
-                <input asp-for="Area_Desejada" class="form-control" />
-                <span asp-validation-for="Area_Desejada" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Experiencia" class="control-label"></label>
-                <input asp-for="Experiencia" class="form-control" />
-                <span asp-validation-for="Experiencia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tempo" class="control-label"></label>
-                <input asp-for="Tempo" class="form-control" />
-                <span asp-validation-for="Tempo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Escolaridade" class="control-label"></label>
-                <input asp-for="Escolaridade" class="form-control" />
-                <span asp-validation-for="Escolaridade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Curso" class="control-label"></label>
-                <input asp-for="Curso" class="form-control" />
-                <span asp-validation-for="Curso" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Instituicao" class="control-label"></label>
-                <input asp-for="Instituicao" class="form-control" />
-                <span asp-validation-for="Instituicao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+              <div class="row g-1 alinhamento">
+              <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="N°" aria-label="Numero">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="Complemento" aria-label="Complemento">
+                </div>
+              </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Bairro" aria-label="Bairro">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                  <input type="text" class="form-control" placeholder="Cidade" aria-label="Cidade">
+                </div>
+              </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+              <div class="row g-1 alinhamento">
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="UF" aria-label="UF">
+                </div>
+                <div class="col-md-4 p-1 formulario">
+                    <input type="text" class="form-control" placeholder="País" aria-label="País">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-3 p-1 f">
+                  <input type="text" class="form-control" placeholder="Área de atuação" aria-label="Area-de-atuacao">
+                </div>
+                <div class="col-md-3 p-1 f">
+                  <input type="text" class="form-control" placeholder="Experiência?" aria-label="experiencia">
+                </div>
+                <div class="col-md-3 p-1 f">
+                    <input type="text" class="form-control" placeholder="Tempo" aria-label="Tempo">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col-md-3 p-1 f">
+                  <input type="text" class="form-control" placeholder="Escolaridade" aria-label="Escolaridade">
+                </div>
+                <div class="col-md-3 p-1 f">
+                  <input type="text" class="form-control" placeholder="Curso" aria-label="Curso">
+                </div>
+                <div class="col-md-3 p-1 f">
+                    <input type="text" class="form-control" placeholder="Instituição" aria-label="Instituicao">
+                </div>
+              </div>
+              <div class="row g-1 alinhamento">
+                <div class="col">
+                  <button class="botao btn btn-success" type="submit">
+                   <a asp-controller="Home" asp-action="#LINKARbackPRASalvar">Salvar alterações</a>
+                  </button>
+                </div>
+                <div class="col">
+                  <button class="botao btn btn-dark" type="submit">
+                    <a asp-controller="Home" asp-action="Index">Fazer logout</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>

@@ -47,3 +47,8 @@ button.accept-policy[b-aaorrnidax] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.nav-item:hover[b-aaorrnidax]{
+    border-bottom-color:red;
+    color: blue;
+}
