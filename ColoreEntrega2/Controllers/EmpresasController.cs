@@ -45,8 +45,7 @@ namespace ColoreEntrega2.Controllers
             return View(empresa);
         }
 
-        // GET: Empresas/Create
-        [Authorize]
+        // GET: Empresas/Create       
         public IActionResult Create()
         {
             return View();

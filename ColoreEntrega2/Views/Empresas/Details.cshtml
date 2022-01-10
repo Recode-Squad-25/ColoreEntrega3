@@ -1,32 +1,38 @@
 ﻿@model Colore_Entrega2.Models.Empresa
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes Empresa";
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayNameFor(model => model.nome)</h1>
 
 <div>
-    <h4>Empresa</h4>
     <hr />
+    
+    <div class="container">
+        <div class="row">  
+            <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="~/images/empresas/@(Model?.id).jpg" alt="@Model.nome">
+                      <div class="card-body">
+                        <h5 class="card-title"> E-mail : @Html.DisplayNameFor(model => model.email)</h5>
+                        <p class="card-text"> Telefone:  @Html.DisplayFor(model => model.telefone)</p>
+                        <p class="card-text"> CNPJ:  @Html.DisplayFor(model => model.cnpj)</p>
+                      </div>
+             </div>
+
+<!-- 
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nome)
-        </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nome)
+            Logo
         </dd>
+        <dt class = "col-sm-2">
+           <img src="~/images/empresas/@(Model?.id).jpg" class="img-responsive" alt="Imagem ">
+        </dt>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.email)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.senha)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.telefone)
@@ -45,4 +51,4 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
     <a asp-action="Index">Back to List</a>
-</div>
+</div>-->
