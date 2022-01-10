@@ -1,18 +1,14 @@
 ﻿@model Colore_Entrega2.Models.Empresa
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes " ;
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayNameFor(model => model.nome)</h1>
 
 <div>
-    <h4>Empresa</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.nome)
-        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.nome)
         </dd>
@@ -21,12 +17,6 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.senha)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.telefone)
@@ -43,6 +33,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <!--<a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>-->
 </div>
