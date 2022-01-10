@@ -51,8 +51,7 @@ namespace ColoreEntrega2.Controllers
             return View(vagas);
         }
 
-        // GET: Vagas/Create
-        [Authorize]
+        // GET: Vagas/Create      
         public IActionResult Create()
         {
             return View();

@@ -1065,3 +1065,11 @@ C:\Users\Patricia Brandão\Desktop\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.
 C:\Users\Patricia Brandão\Desktop\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\Patricia Brandão\Desktop\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Patricia Brandão\Desktop\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.MvcApplicationPartsAssemblyInfo.cs

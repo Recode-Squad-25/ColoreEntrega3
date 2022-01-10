@@ -1,0 +1,65 @@
+﻿
+.tudo {
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-centro {
+    height: 80%;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 2px 10px 40px #00000056;
+}
+
+.caixa {
+    width: 25vw;
+   margin-left: -8.4vw;
+    color: white;
+}
+.formulario {
+    margin-top: 20px;
+}
+.ajuste-forgot {
+    padding: 10px;
+    
+}
+
+.botao {
+    margin-left: -8.4vw;
+    margin-top: 10px;
+    width: 25vw;
+}
+.tudo a {
+    text-decoration: none;
+    color:white;
+}
+.tudo a:hover{
+    color:black;
+}
+
+@media (max-width: 600px) {
+    .card-centro {
+        width: 80vw;
+        margin-left: 5vw;
+    }
+    .caixa {
+        margin-left: 2vw;
+        width:70vw;
+    }
+    .botao {
+        width: 70vw;
+        margin-left: -1vw;
+    }
+    .ajuste-forgot {
+        padding: 5px;
+    }
+}
