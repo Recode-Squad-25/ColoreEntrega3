@@ -1,7 +1,7 @@
 ﻿@model Colore_Entrega2.Models.Empresa
 
 @{
-    ViewData["Title"] = "Detalhes " ;
+    ViewData["Title"] = "Detalhes Empresa" ;
 }
 
 <h1>@Html.DisplayNameFor(model => model.nome)</h1>
@@ -10,8 +10,11 @@
     <hr />
     <dl class="row">
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.nome)
+            Logo
         </dd>
+        <dt class = "col-sm-2">
+           <img src="~/images/empresas/@(Model?.id).jpg" class="img-responsive" alt="Imagem ">
+        </dt>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.email)
         </dt>
