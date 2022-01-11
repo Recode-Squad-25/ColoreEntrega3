@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "5SOMO46tRqFpSSwVNHWO4F+hR6q9sMDXORN1T+jSvHg=",
+=======
+  "Hash": "nNNFkXMuzw6GDhgmm20r2/bteuxwa6n4rS5eLba+MD8=",
+>>>>>>> Stashed changes
   "Source": "ColoreEntrega2",
   "BasePath": "_content/ColoreEntrega2",
   "Mode": "Default",
@@ -238,12 +242,21 @@
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+=======
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\index\\fotoAsset 4.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/index/fotoAsset 4.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,6 +265,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
@@ -261,6 +275,17 @@
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+=======
+      "OriginalItemSpec": "wwwroot\\images\\index\\fotoAsset 4.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\index\\fotoAsset 5.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/index/fotoAsset 5.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,6 +294,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -278,6 +304,16 @@
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+=======
+      "OriginalItemSpec": "wwwroot\\images\\index\\fotoAsset 5.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\index\\fotoAsset 6.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/index/fotoAsset 6.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,6 +322,42 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\index\\fotoAsset 6.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\index\\fotoAsset 7.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/index/fotoAsset 7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\index\\fotoAsset 7.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\instagram.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/instagram.png",
+>>>>>>> Stashed changes
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
@@ -295,6 +367,17 @@
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+=======
+      "OriginalItemSpec": "wwwroot\\images\\instagram.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\Painel\\left-img.svg",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/Painel/left-img.svg",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,7 +386,11 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+=======
+      "OriginalItemSpec": "wwwroot\\images\\Painel\\left-img.svg"
+>>>>>>> Stashed changes
     },
     {
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
@@ -374,12 +461,21 @@
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+=======
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\sobre\\Joao.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/sobre/Joao.png",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,7 +484,11 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+=======
+      "OriginalItemSpec": "wwwroot\\images\\sobre\\Joao.png"
+>>>>>>> Stashed changes
     },
     {
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
@@ -408,12 +508,38 @@
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+=======
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\sobre\\Leonardo.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/sobre/Leonardo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sobre\\Leonardo.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\sobre\\linkedin.svg",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/sobre/linkedin.svg",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -425,12 +551,38 @@
       "OriginalItemSpec": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\victo\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+=======
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\sobre\\Luiz.png",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/sobre/Luiz.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sobre\\Luiz.png"
+    },
+    {
+      "Identity": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\images\\sobre\\Team goals-amico.svg",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ColoreEntrega2\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/sobre/Team goals-amico.svg",
+>>>>>>> Stashed changes
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
