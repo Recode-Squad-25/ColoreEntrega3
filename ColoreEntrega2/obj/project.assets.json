@@ -9799,19 +9799,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leona\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\Desktop\\Clone2\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
       "projectName": "ColoreEntrega2",
-      "projectPath": "C:\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
-      "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\ColoreEntrega2\\ColoreEntrega2\\obj\\",
+      "projectPath": "C:\\Users\\victo\\Desktop\\Clone2\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Desktop\\Clone2\\ColoreEntrega2\\ColoreEntrega2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
