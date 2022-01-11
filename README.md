@@ -3,7 +3,7 @@
 Para o desenvolvimento tecnológico, considere: -A modelagem de dados usando o DER (Diagrama Entidade Relacionamento) e UML -A implementação das classes em C# -As funções CRUD básicas da interface com banco de dados funcionando -A navegação entre as telas -Um Site responsivo com pelo menos 4 páginas
 
 # Colore
-* <a href="http://colore.42web.io/"> Aplicação online</a>
+* <a href="https://color3.azurewebsites.net/Home/Curriculo"> Aplicação online</a>
 * A iniciativa da Projeto COLORE pretende promover igualdade e respeito, sobretudo no que tange o processo de inclusão do público LGBTQIA+ no mercado de trabalho.
 * Desenvolver um ambiente prático, seguro e eficiente para que empresas e seus futuros colaboradores se conheçam e construam; juntos, o caminho para a disseminação de vagas a todos os públicos.
 
