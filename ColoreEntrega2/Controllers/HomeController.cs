@@ -27,6 +27,10 @@ namespace ColoreEntrega2.Controllers
         {
             return View();
         }
+        public IActionResult EditarCurriculo()
+        {
+            return View();
+        }
 
         public IActionResult PainelDoUsuario()
         {
