@@ -1,10 +1,9 @@
-/-------------------------PAGINA 1 - PAINEL DO USUARIO-----------------/
+Ôªø/*-------------------------PAGINA 1 - PAINEL DO USUARIO*-----------------/
 /*MARGEM 0 */
 * {
     margin: 0;
 }
-
-/CONFIG DE TODA A PAGINA/
+/*CONFIG DE TODA A PAGINA*/
 .main {
     width: 80vw;
     height: 100vh;
@@ -13,10 +12,9 @@
     color: black;
     border-radius: 20px;
 }
-
-/CONFIG DA PARTE ESQUEDA DA PAG (FOTO E TITULO)/
+/*CONFIG DA PARTE ESQUEDA DA PAG (FOTO E TITULO)*/
 .left {
-    margin-left: 0;
+    margin-left: 10px;
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -24,12 +22,14 @@
     align-items: center;
     flex-direction: column;
 }
-
-.left h1, title {
-    margin-left: -0vw;
+.left p {
+    margin-left: -1vw;
 }
 
-/CONFIG DA PARTE DIREITA DA PAG (SOMENTE TAMANHO E ALINHAMENTO)/
+    .left h1, title {
+        margin-left: -0vw;
+    }
+/*CONFIG DA PARTE DIREITA DA PAG (SOMENTE TAMANHO E ALINHAMENTO)*/
 .right {
     width: 50vw;
     height: 100vh;
@@ -39,7 +39,7 @@
     color: white;
 }
 
-/CONFIG DA PARTE DIREITA DA PAG (CARD, INPUTS, FORMULARIO ETC)/
+/*CONFIG DA PARTE DIREITA DA PAG (CARD, INPUTS, FORMULARIO ETC)*/
 .card-right {
     height: 80%;
     width: 80%;
@@ -51,53 +51,46 @@
     border-radius: 20px;
     box-shadow: 2px 10px 40px #00000056;
 }
-
-/TAMANHO E SOMBRA DOS BOTOES/
+/*TAMANHO E SOMBRA DOS BOTOES*/
 .botao {
     height: 10vh;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-/COR E TIRAR COR AZUL DE LINK DOS BOTOES/
-.botao a {
-    text-decoration: none;
-    color: white;
-}
-
-/TAMANHO DA IMAGEM DA TELA DE PainelDoUsuario (a que se mexe)/
+    /*COR E TIRAR COR AZUL DE LINK DOS BOTOES*/
+    .botao a {
+        text-decoration: none;
+        color: white;
+    }
+/*TAMANHO DA IMAGEM DA TELA DE PainelDoUsuario (a que se mexe)*/
 .img {
     width: 400px;
 }
-
-/MEDIA DE RESPONSIVIDADE/
+/*MEDIA DE RESPONSIVIDADE*/
 @media (max-width: 600px) {
-    .main
+    .main {
+        display: block;
+        width: 100vw;
+        margin-left: -5vw;
+    }
 
-{
-    display: block;
-    width: 100vw;
-    margin-left: -5vw;
-}
+    .left {
+        width: 100vh;
+        margin-left: -90px;
+        background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
+        display: none;
+    }
 
-.left {
-    width: 100vh;
-    margin-left: -90px;
-    background-image: linear-gradient(rgb(70, 240, 141), rgb(9, 165, 61));
-    display: none;
-}
+    .right {
+        width: 100vh;
+    }
 
-.right {
-    width: 100vh;
-}
+    .card-right {
+        margin-left: -20vw;
+    }
 
-.card-right {
-    margin-left: -20vw;
-}
-
-.img {
-    width: 300px;
-}
-
+    .img {
+        width: 300px;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 1280px) {
@@ -127,11 +120,10 @@
         width: 300px;
     }
 }
+/*-------------------------------------------FIM DA P√ÅGINA 1-------------------------------*/
 
-/-------------------------------------------FIM DA P¡GINA 1-------------------------------/
-
-/-----------------------------------P¡GINA 2 - CURRICULO---------------------------------/
-/CONFIG DA DIV MAE (TELA TODA)/
+/*-----------------------------------P√ÅGINA 2 - CURRICULO---------------------------------*/
+/*CONFIG DA DIV MAE (TELA TODA)*/
 .mae {
     width: 80vw;
     height: 110vh;
@@ -141,8 +133,7 @@
     justify-content: center;
     border-radius: 20px;
 }
-
-/CONFIG DA DIV ESQUERDA/
+/*CONFIG DA DIV ESQUERDA*/
 .left-curriculo {
     width: 40vw;
     height: 100vh;
@@ -153,15 +144,13 @@
     justify-content: center;
     flex-direction: column;
 }
-
-/CONFIG DA DIV DIREITA/
+/*CONFIG DA DIV DIREITA*/
 .right-curriculo {
     width: 50vw;
     height: 99vh;
     display: flex;
 }
-
-/CONFIG DO CARD DIREITO/
+/*CONFIG DO CARD DIREITO*/
 .card-right-curriculo {
     height: 109%;
     width: 90%;
@@ -180,73 +169,67 @@
 .formulario {
     margin-left: -1px;
 }
-
-/CONFIG DA FOTO DE AVATAR/
+/*CONFIG DA FOTO DE AVATAR*/
 .user {
     width: 10vw;
     margin-left: 10vw;
 }
-
-/CONFIG DO TITULO ABAIXO DO AVATAR/
+/*CONFIG DO TITULO ABAIXO DO AVATAR*/
 .title {
     margin-left: 10vw;
 }
-
-/BOT’ES/
+/*BOT√ïES*/
 .botao {
     height: 10vh;
     width: 20vw;
 }
 
-/RESPONSIVIDADE, CUIDADO AQUI. EST¡ SEMPRE DO MENOR PRO MAIOR./
+/*RESPONSIVIDADE , CUIDADO AQUI. EST√Å SEMPRE DO MENOR PRO MAIOR.*/
 @media (max-width: 1280px) {
-    .user
-
-{
-    width: 25vw;
-    margin-left: 5px
-}
-
-h1 {
-    margin-left: -35px;
-}
-
-.left-curriculo {
-    margin-left: 15vh;
-    display: none;
-}
-
-.right-curriculo {
-    height: 187vh;
-    width: 100%;
-    margin-left: 0px;
-    margin-bottom: 1000px;
-}
-
-.mae {
-    display: block;
-    width: 92vw;
-    height: 215vh;
-}
-
-.card-right-curriculo {
-    margin-top: 2vh;
-    height: 210vh;
-    margin-left: -0.2vw;
-    width: 90vw;
-    flex-direction: column;
-    display: block;
-}
-
-    .card-right-curriculo h5 {
-        margin-top: 3vh;
-        font-size: 15px;
+    .user {
+        width: 25vw;
+        margin-left: 5px
     }
 
-.botao {
-    width: 35vw;
-}
+    h1 {
+        margin-left: -35px;
+    }
 
+    .left-curriculo {
+        margin-left: 15vh;
+        display: none;
+    }
+
+    .right-curriculo {
+        height: 187vh;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 1000px;
+    }
+
+    .mae {
+        display: block;
+        width: 92vw;
+        height: 215vh;
+    }
+
+    .card-right-curriculo {
+        margin-top: 2vh;
+        height: 210vh;
+        margin-left: -0.2vw;
+        width: 90vw;
+        flex-direction: column;
+        display: block;
+    }
+
+        .card-right-curriculo h5 {
+            margin-top: 3vh;
+            font-size: 15px;
+        }
+
+    .botao {
+        width: 35vw;
+    }
 }
 
 .baixo {
