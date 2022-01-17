@@ -120,3 +120,8 @@ body {
 .list-group-item-text {
     margin: 0 0 11px;
 }
+
+.nav-item{
+    border-bottom-color: red;
+    color: blue;
+}
