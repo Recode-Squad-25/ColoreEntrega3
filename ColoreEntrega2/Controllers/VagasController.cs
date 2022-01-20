@@ -36,7 +36,7 @@ namespace ColoreEntrega2.Controllers
         // GET: Vagas
         public async Task<IActionResult> Vagas()
         {
-            return View(await _context.empresa.ToListAsync());
+            return View(await _context.vagas.ToListAsync());
         }
 
         // GET: Vagas/Details/5
