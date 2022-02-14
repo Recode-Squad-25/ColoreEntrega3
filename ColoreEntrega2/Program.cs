@@ -5,9 +5,9 @@ using ColoreEntrega2.Data;
 using ColoreEntrega2.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("ColoreEntrega2ContextConnection"); builder.Services.AddDbContext<ColoreEntrega2Context>(options =>
- options.UseSqlServer(connectionString)); builder.Services.AddDefaultIdentity<ColoreEntrega2User>(options => options.SignIn.RequireConfirmedAccount = false)
-  .AddEntityFrameworkStores<ColoreEntrega2Context>();
+var connectionString = builder.Configuration.GetConnectionString("ColoreEntrega2ContextConnection"); 
+builder.Services.AddDbContext<ColoreEntrega2Context>(options => options.UseSqlServer(connectionString)); 
+builder.Services.AddDefaultIdentity<ColoreEntrega2User>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ColoreEntrega2Context>();
 
 //Conex�o banco de dados Patricia
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-DB6AS9Q; Initial Catalog=Colore; Integrated Security = True"));
