@@ -7,13 +7,10 @@
 @using Microsoft.AspNetCore.Identity
 @using ColoreEntrega2.Areas.Identity.Data
 
-@inject SignInManager<ColoreEntrega2User> SignInManager
 @inject UserManager<ColoreEntrega2User> UserManager
 
-@if (SignInManager.IsSignedIn(User))
+@if ((@Model.Id).Equals(@UserManager.GetUserId))
 {
-    @if ((@Model.Id).Equals(@UserManager.GetUserId))
-    {
         <div class="mae">
         <div class="left-curriculo">
             <div class="user row">
@@ -123,7 +120,6 @@
             </div>
           </div>
         </div>
-    }    
 }else{
     <div class="mae">
         <div class="left-curriculo">
