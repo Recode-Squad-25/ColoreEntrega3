@@ -124,7 +124,7 @@
           </div>
         </div>
     }    
-}else if(@Model.Id == null){
+}else{
     <div class="mae">
         <div class="left-curriculo">
             <div class="user row">
@@ -228,8 +228,8 @@
                   </button>
                 </div>                  
                 <div class="col">
-                  <button class="botao btn btn-warning" type="submit">
-                    <a style="color: black;" asp-action="Edit" asp-route-id="@Model.@UserManager.GetUserId">Salvar</a>
+                  <button class="botao btn btn-warning" type="submit" value="Create" >
+                    <a style="color: black;" asp-action="Create" asp-route-id="@Model.@UserManager.GetUserId">Salvar</a>
                   </button>
                 </div>
                 <div class="col">
