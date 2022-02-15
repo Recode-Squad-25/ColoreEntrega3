@@ -163,5 +163,6 @@ namespace ColoreEntrega2.Controllers
         {
             return _context.vagas.Any(e => e.id == id);
         }
+
     }
 }
