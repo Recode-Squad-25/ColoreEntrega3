@@ -1,7 +1,6 @@
-﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
+﻿@model IEnumerable<ColoreEntrega2.Models.CompatibilidadeVagaCurriculo>
 @using Microsoft.AspNetCore.Identity
 @using ColoreEntrega2.Areas.Identity.Data
-@using ColoreEntrega2.Controllers
 
 @inject SignInManager<ColoreEntrega2User> SignInManager
 @inject UserManager<ColoreEntrega2User> UserManager
@@ -39,27 +38,38 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
                     <div class="card text-center my-3">
                         <div class="card-header">
-                             @Html.DisplayFor(modelItem => item.area)
+                             @Html.DisplayFor(modelItem => item.vaga.area)
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h4>
-                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>
-                            <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)</p>                             
-                            <h6>@item.beneficios</h6>
+                            <h4 class="card-title"> @Html.DisplayFor(modelItem => item.vaga.titulo)</h4>
+                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.vaga.escolaridade)</h6>
+                            <p class="card-text">@Html.DisplayFor(modelItem => item.vaga.descricao)</p>                             
+                            <h6>@item.vaga.beneficios</h6>
                             
                             @if (SignInManager.IsSignedIn(User))
                             {
                                 int progresso = 0;
-
-                                progresso =  (item.id);
+                                @if (item.vaga.escolaridade.Equals(item.curriculo.Escolaridade))
+                                {
+                                    progresso = progresso + 33;
+                                }
+                                @if (item.vaga.experiencia.Equals(item.curriculo.Experiencia))
+                                {
+                                    progresso = progresso + 33;
+                                }
+                                @if (item.vaga.area.Equals(item.curriculo.Area_Desejada))
+                                {
+                                    progresso = progresso + 33;                          
+                                }
+                                
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="@(progresso)" aria-valuemin="0" aria-valuemax="100" style="width: @(progresso)%"></div>
                                 </div>
                             }
-                            <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
+                            <a asp-action="Details" asp-route-id="@item.vaga.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
                         </div>
                         <div class="card-footer text-muted">
-                           <p class="card-text"> Salario - R$ @item.salario </p>
+                           <p class="card-text"> Salario - R$ @item.vaga.salario </p>
                         </div>
                     </div>
                 </div>
