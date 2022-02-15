@@ -16,7 +16,7 @@ var connectionString = builder.Configuration.GetConnectionString("ColoreEntrega2
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-LCPGQT9;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Juliana
-builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
+//builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-6V7IQ3S;Initial Catalog=Colore;Integrated Security=True"));
 
 //Conex�o banco de dados Leonardo
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-IGD0CBU\SQLEXPRESS;Initial Catalog=Colore;Integrated Security=True"));
@@ -28,7 +28,7 @@ builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data So
 //builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Data Source=DESKTOP-1LSE35M;Initial Catalog=Entrega;Integrated Security=True"));
 
 //Conexão online
-builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Server=tcp:coloredbserver.database.windows.net,1433;Initial Catalog=ColoreEntrega2_db;Persist Security Info=False;User ID=colore;Password=124578Co;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+builder.Services.AddDbContext<Conexao>(options => options.UseSqlServer(@"Server=tcp:colore.database.windows.net,1433;Initial Catalog=ColoreEntrega2_db;Persist Security Info=False;User ID=colore;Password=124578Co;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
 var app = builder.Build();
 
