@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k8h5NnoD4wguSS99V5YGme4MgieaRM/2GpnuVLP9LMojzSAJBIlnssJ0cx38/7uuz5EqYLqbvZRLmOfHU8Ondg==",
+  "dgSpecHash": "CeiUPtlAtwhKA/hO74TglWWP6yNtBZiwu/dIsICO04aAagXMm0HmVusQIFKCMB7v+LVAP79N8Rif3R5z/aQCrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\ColoreEntrega2.csproj",
+  "projectFilePath": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\Entrega3 SQUAD RECODE\\ColoreEntrega3\\ColoreEntrega2\\ColoreEntrega2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Julia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Julia\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -183,12 +183,5 @@
     "C:\\Users\\Julia\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Julia\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega2\\ColoreEntrega2\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

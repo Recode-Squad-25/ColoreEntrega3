@@ -1,5 +1,11 @@
 ﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
+@using Microsoft.AspNetCore.Identity
+@using ColoreEntrega2.Areas.Identity.Data
+@using ColoreEntrega2.Controllers.CurriculoesController
+@Controller <Colore_Entrega2.Controller.CurriculoesController>
 
+@inject SignInManager<ColoreEntrega2User> SignInManager
+@inject UserManager<ColoreEntrega2User> UserManager
 @{
     ViewData["Title"] = "Pagina inicial  vagas";
 }
@@ -29,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="text-center">Vagas Recentes </h3>
-                @foreach (var item in Model) {
+                @foreach (var item in Model) {                
                 <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
                     <div class="card text-center my-3">
                         <div class="card-header">
@@ -40,6 +46,16 @@
                             <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>
                             <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)</p>                             
                             <h6>@item.beneficios</h6>
+                            
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                int progresso = 0;
+                                CurriculoesController controller;
+                                progresso = controller.progressoCompatibilidadeCurriculo(item.id);
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="@(progresso)" aria-valuemin="0" aria-valuemax="100" style="width: @(progresso)%"></div>
+                                </div>
+                            }
                             <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
                         </div>
                         <div class="card-footer text-muted">
