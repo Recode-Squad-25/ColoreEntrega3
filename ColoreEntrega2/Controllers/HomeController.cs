@@ -70,7 +70,7 @@ namespace ColoreEntrega2.Controllers
 
                 string Content = "<br>Nome: " + sendEmailDto.Nome;
                 Content += "<br>Email: " + sendEmailDto.Email;
-                Content += "<br>Telefone: " + sendEmailDto.Telefone;
+                Content += "" + sendEmailDto.Telefone;
                 Content += "<br>Mensagem: " + sendEmailDto.Mensagem;
 
                 mail.Body = Content;
