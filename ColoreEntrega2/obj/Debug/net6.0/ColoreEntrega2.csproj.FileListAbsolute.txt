@@ -1613,3 +1613,15 @@ C:\Users\victo\Desktop\Clone2\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\Col
 C:\Users\victo\Desktop\Clone2\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ref\ColoreEntrega2.dll
 C:\Users\victo\Desktop\Clone2\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.pdb
 C:\Users\victo\Desktop\Clone2\ColoreEntrega2\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.genruntimeconfig.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.csproj.AssemblyReference.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.AssemblyInfoInputs.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.AssemblyInfo.cs
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.csproj.CoreCompileInputs.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.RazorAssemblyInfo.cache
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.RazorAssemblyInfo.cs
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ref\ColoreEntrega2.dll
+C:\Users\Julia\OneDrive\Área de Trabalho\Entrega3 SQUAD RECODE\ColoreEntrega3\ColoreEntrega2\obj\Debug\net6.0\ColoreEntrega2.pdb

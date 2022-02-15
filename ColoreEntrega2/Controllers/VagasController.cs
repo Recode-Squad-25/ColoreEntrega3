@@ -164,11 +164,5 @@ namespace ColoreEntrega2.Controllers
             return _context.vagas.Any(e => e.id == id);
         }
 
-        private int progressoCompatibilidadeCurriculo()
-        {
-            int progresso = 0;
-            
-            return progresso;
-        }
     }
 }
