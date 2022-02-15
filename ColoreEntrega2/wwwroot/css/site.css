@@ -60,7 +60,7 @@ body {
 
 .homeCard {
     background-image: url(https://ps.w.org/bp-job-manager/assets/icon-256x256.png?rev=2353423);
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 /* Estilo Index Empresas*/
@@ -121,7 +121,60 @@ body {
     margin: 0 0 11px;
 }
 
-.nav-item{
+.nav-item {
     border-bottom-color: red;
     color: blue;
+}
+/*REGISTER/LOGIN CSS*/
+.register-cont {
+    margin-bottom: 20px;
+    background-color: #212529;
+    border-radius: 20px;
+}
+
+    .register-cont h2 {
+        margin-top: 10px;
+        color: #FFD231;
+        text-align: center;
+    }
+
+.register-options p {
+    margin-top: -15px;
+}
+
+.register-options a {
+    color: #FFD231;
+    text-decoration: none;
+}
+
+.register-but {
+    margin-bottom: 10px;
+}
+/*Fim REGISTRO/LOGIN*/
+
+/*PAINEL CSS*/
+
+.bg-img img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.curriculo.but {
+    margin-top: 50px;
+}
+
+.alinhamento, .botao {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+    .botao a {
+        text-decoration: none;
+        color: white;
+    }
+
+.mae-2 {
+    background-color: #273339;
+    border-radius: 20px;
 }
