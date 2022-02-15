@@ -68,7 +68,7 @@ namespace ColoreEntrega2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,titulo,salario,descricao,beneficios,area,escolaridade,experiencia,experienciaArea,idiomas,idEmpresa")] Vagas vagas)
+        public async Task<IActionResult> Create([Bind("id,titulo,salario,descricao,beneficios,area,escolaridade,experiencia,experienciaArea,idiomas,uimg,idEmpresa")] Vagas vagas)
         {
             if (ModelState.IsValid)
             {
@@ -77,6 +77,9 @@ namespace ColoreEntrega2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(vagas);
+
+
+
         }
 
         // GET: Vagas/Edit/5
@@ -100,7 +103,7 @@ namespace ColoreEntrega2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("id,titulo,salario,descricao,beneficios,area,escolaridade,experiencia,experienciaArea,idiomas,idEmpresa")] Vagas vagas)
+        public async Task<IActionResult> Edit(int? id, [Bind("id,titulo,salario,descricao,beneficios,area,escolaridade,experiencia,experienciaArea,idiomas,uimg,idEmpresa")] Vagas vagas)
         {
             if (id != vagas.id)
             {

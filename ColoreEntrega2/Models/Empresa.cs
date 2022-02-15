@@ -13,5 +13,7 @@ namespace Colore_Entrega2.Models
         public string? senha { get; set; }
         public string? telefone { get; set; }
         public string? cnpj { get; set; }
+
+        public string? image { get; set; }
     }
 }

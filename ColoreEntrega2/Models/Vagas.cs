@@ -18,6 +18,7 @@ namespace Colore_Entrega2.Models
         public int? experiencia{ get; set; }
         public int? experienciaArea{ get; set; }
         public string? idiomas { get; set; }
+        public string? uimg { get; set; }
 
         [ForeignKey("Empresa")]
         public int idEmpresa { get; set; }

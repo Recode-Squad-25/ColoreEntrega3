@@ -21,6 +21,7 @@
                         <p class="card-text"> Experiência de trabalho Exigida: @Html.DisplayFor(model => model.experiencia)</p>
                         <p class="card-text"> Experiência de trabalho na Área de @Html.DisplayFor(model => model.area) Exigida: @Html.DisplayNameFor(model => model.experiencia)</p>
                         <p class="card-text"> Idiomas desejavel: @Html.DisplayFor(model => model.idiomas)</p>
+                        <p class="card-text"> Imagem Logo: @Html.DisplayFor(model => model.uimg)</p>
                     </div>
              </div>
        </div>
@@ -85,6 +86,13 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.idiomas)
+        </dd>
+        <dt class = "col-sm-2">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.uimg)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.uimg)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.idEmpresa)
