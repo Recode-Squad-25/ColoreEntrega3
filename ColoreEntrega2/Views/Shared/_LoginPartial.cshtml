@@ -1,4 +1,6 @@
-﻿@using Microsoft.AspNetCore.Identity
+﻿@model IEnumerable<Colore_Entrega2.Models.Curriculo>
+
+@using Microsoft.AspNetCore.Identity
 @using ColoreEntrega2.Areas.Identity.Data
 
 @inject SignInManager<ColoreEntrega2User> SignInManager
@@ -6,10 +8,25 @@
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Curriculo">Curriculo</a>
-     </li>
+        @if(Model != null)
+        {
+           int i = 0;
+           @foreach (var item in Model){
+                @if(@item.Id.Equals(UserManager.GetUserId))
+                {
+                    i = @item.Id;
+                    break;
+                }
+            }
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Curriculo" asp-action="Edit" asp-route-id="@Model.@i">Curriculo</a>
+            </li>
+                
+        }else{
+            <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Curriculo" asp-action="Create">>Curriculo</a>
+                </li>             
+            }        
     <li class="nav-item">
         <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Oláaa, @UserManager.GetUserName(User)!</a>
     </li>
