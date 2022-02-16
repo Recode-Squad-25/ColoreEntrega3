@@ -1,80 +1,45 @@
-﻿@model IEnumerable<ColoreEntrega2.Models.CompatibilidadeVagaCurriculo>
-@using Microsoft.AspNetCore.Identity
-@using ColoreEntrega2.Areas.Identity.Data
+﻿@model IEnumerable<Colore_Entrega2.Models.Vagas>
 
-@inject SignInManager<ColoreEntrega2User> SignInManager
-@inject UserManager<ColoreEntrega2User> UserManager
 @{
     ViewData["Title"] = "Pagina inicial  vagas";
 }
 
-<section id="search-jobs" class="d-flex align-items-center">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-12 col-md-10 col-lg-8  mx-auto">
-                    <h3>Encontre sua vaga</h3>
-                    @using (Html.BeginForm())
-                    {
-                    <div class="row">
-                        <div class="d-grid my-3 col-3 mx-auto">
-                            <label>Procure por área ou escolaridade:</label>
-                            <label>@Html.TextBox("busca")</label>
-                            <input type="submit" value="Pesquisar" class="btn btn-dark"/>
-                        </div>
-                    </div>                    
-                    }
-                
-                    
-                </div>
-            </div>
+<section id="search-jobs">
+    <div class="container text-center">
+        <div class="standardBG ">
+        <h3>Encontre sua vaga</h3>
+        </div>
+        <hr/>
+        @using (Html.BeginForm()){
+        <div>
+            <label>Procure por área ou escolaridade:</label>
+        <label>@Html.TextBox("busca")</label>
+        </div>
+        <input type="submit" value="Pesquisar" class="btn btn-dark"/>
+        }
+    </div>
+    <hr />
+    <div class="text-center standardBG ">
+        <h3>Vagas Recentes</h3>
         </div>
     </section>
     <section id="recent-jobs" class="d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <h3 class="text-center">Vagas Recentes </h3>
-               
-                @foreach (var item in Model) {                
+                @foreach (var item in Model) {
                 <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
-                    <div class="card text-center my-3">
+                    <div class="card text-center my-3" style="max-height:400px;">
                         <div class="card-header">
-                             @Html.DisplayFor(modelItem => item.vaga.area)
+                             @Html.DisplayFor(modelItem => item.area)
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title"> @Html.DisplayFor(modelItem => item.vaga.titulo)</h4>
-                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.vaga.escolaridade)</h6>
-                            <p class="card-text">@Html.DisplayFor(modelItem => item.vaga.descricao)</p>                             
-                            <h6>@item.vaga.beneficios</h6>
-                            
-                            @if (SignInManager.IsSignedIn(User))
-                            {
-                                int progresso = 0;
-                                @if (item.vaga.escolaridade.Equals(item.curriculo.Escolaridade))
-                                {
-                                    progresso = progresso + 33;
-                                }
-                                @if (item.vaga.experiencia.Equals(item.curriculo.Experiencia))
-                                {
-                                    progresso = progresso + 33;
-                                }
-                                @if (item.vaga.area.Equals(item.curriculo.Area_Desejada))
-                                {
-                                    progresso = progresso + 33;                          
-                                }
-                                
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="@(progresso)" aria-valuemin="0" aria-valuemax="100" style="width: @(progresso)%"></div>
-                                </div>
-                            }
-                            <a asp-action="Details" asp-route-id="@item.vaga.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
+                            <h4 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h4>
+                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>                          
+                            <h6>@item.beneficios</h6>
+                            <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
                         </div>
                         <div class="card-footer text-muted">
-                           <p class="card-text"> Salario - R$ @item.vaga.salario </p>
+                           <p class="card-text"> Salario - R$ @item.salario </p>
                         </div>
                     </div>
                 </div>
                }
-               
-            </div>
-        </div>
     </section>
