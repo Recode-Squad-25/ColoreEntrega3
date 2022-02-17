@@ -4,41 +4,35 @@
     ViewData["Title"] = "Pagina inicial  vagas";
 }
 
-<section id="search-jobs" class="d-flex align-items-center">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-12 col-md-10 col-lg-8  mx-auto">
-                    <h3>Encontre sua vaga</h3>
-                    @using (Html.BeginForm())
-                    {
-                    <div class="row">
-                        <div class="d-grid my-3 col-3 mx-auto">
-                            <label>Procure por área ou escolaridade:</label>
-                            <label>@Html.TextBox("busca")</label>
-                            <input type="submit" value="Pesquisar" class="btn btn-dark"/>
-                        </div>
-                    </div>                    
-                    }
-                
-                    
-                </div>
-            </div>
+<section id="search-jobs">
+    <div class="container text-center">
+        <div class="standardBG ">
+        <h3>Encontre sua vaga</h3>
+        </div>
+        <hr/>
+        @using (Html.BeginForm()){
+        <div>
+            <label>Procure por área ou escolaridade:</label>
+        <label>@Html.TextBox("busca")</label>
+        </div>
+        <input type="submit" value="Pesquisar" class="btn btn-dark"/>
+        }
+    </div>
+    <hr />
+    <div class="text-center standardBG ">
+        <h3>Vagas Recentes</h3>
         </div>
     </section>
     <section id="recent-jobs" class="d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <h3 class="text-center">Vagas Recentes </h3>
                 @foreach (var item in Model) {
                 <div class="col-sm-12 col-md-6 col-lg-4 mx-auto">
-                    <div class="card text-center my-3">
+                    <div class="card text-center my-3" style="max-height:400px;">
                         <div class="card-header">
                              @Html.DisplayFor(modelItem => item.area)
                         </div>
                         <div class="card-body">
                             <h4 class="card-title"> @Html.DisplayFor(modelItem => item.titulo)</h4>
-                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>
-                            <p class="card-text">@Html.DisplayFor(modelItem => item.descricao)</p>                             
+                            <h6 class="card-title"> @Html.DisplayFor(modelItem => item.escolaridade)</h6>                          
                             <h6>@item.beneficios</h6>
                             <a asp-action="Details" asp-route-id="@item.id"  class="btn btn-outline-dark" type="button">Me Candidatar</a>
                         </div>
@@ -48,7 +42,4 @@
                     </div>
                 </div>
                }
-               
-            </div>
-        </div>
     </section>
