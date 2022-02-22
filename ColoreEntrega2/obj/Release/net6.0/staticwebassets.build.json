@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WxkvrRvlC1TtrlLvKuRZ3qpFtqQIT3zM5WbuAEPbvxI=",
+  "Hash": "XC2rS1rGJo6ck/22gFJQvha8Y8AdxBkGWswGFpf9Wu8=",
   "Source": "ColoreEntrega2",
   "BasePath": "_content/ColoreEntrega2",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\curriculo\\user-img.png"
+    },
+    {
+      "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega3\\ColoreEntrega2\\wwwroot\\images\\empresas\\1.jpg",
+      "SourceId": "ColoreEntrega2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega3\\ColoreEntrega2\\wwwroot\\",
+      "BasePath": "_content/ColoreEntrega2",
+      "RelativePath": "images/empresas/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\empresas\\1.jpg"
     },
     {
       "Identity": "C:\\Users\\Julia\\OneDrive\\Área de Trabalho\\ColoreEntrega3\\ColoreEntrega2\\wwwroot\\images\\empresas\\2.jpg",

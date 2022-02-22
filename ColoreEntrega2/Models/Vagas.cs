@@ -9,14 +9,14 @@ namespace Colore_Entrega2.Models
         [Key]
         public int id { get; set; }
         public string? titulo { get; set; }
-        public double salario { get; set; }        
+        public double salario { get; set; }
         public string? descricao { get; set; }
-        public string? beneficios { get; set; }        
+        public string? beneficios { get; set; }
         public string? area { get; set; }
         //Requisitos
         public string? escolaridade { get; set; }
-        public int? experiencia{ get; set; }
-        public int? experienciaArea{ get; set; }
+        public int? experiencia { get; set; }
+        public int? experienciaArea { get; set; }
         public string? idiomas { get; set; }
         public string? uimg { get; set; }
 

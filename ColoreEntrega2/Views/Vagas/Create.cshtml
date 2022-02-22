@@ -1,71 +1,70 @@
 ﻿@model Colore_Entrega2.Models.Vagas
 
 @{
-    ViewData["Title"] = "Cadastro Vagas - Área Administrador";
+    ViewData["Title"] = "Cadastro Vaga - Área Administrador";
 }
 <div class="text-center standardBG">
-    <h1>Preencha os dados da Vagas:</h1>
+    <h1>Preencha os dados da Vaga:</h1>
 </div>
-
 
 <hr />
     <div class="container register-cont">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="titulo" class="control-label">Título da vaga</label>
-                <input asp-for="titulo" class="form-control" />
+                <label asp-for="titulo" class="control-label text-light">Título da vaga</label>
+                <input asp-for="titulo" class="form-control"  />
                 <span asp-validation-for="titulo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="salario" class="control-label">Salário</label>
-                <input asp-for="salario" class="form-control" />
+                <label asp-for="salario" class="control-label text-light">Salário</label>
+                <input asp-for="salario" class="form-control"  />
                 <span asp-validation-for="salario" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="descricao" class="control-label">Descrição dos afazeres da vaga</label>
+                <label asp-for="descricao" class="control-label text-light">Descrição dos afazeres da vaga</label>
                 <input asp-for="descricao" class="form-control" />
                 <span asp-validation-for="descricao" class="text-danger"></span>
             </div>
             <div class="form-group flex-wrap">
-                <label asp-for="beneficios" class="control-label">Benefícios oferecidos</label>
-                <input asp-for="beneficios" class="form-control" />
+                <label asp-for="beneficios" class="control-label text-light">Benefícios oferecidos</label>
+                <input asp-for="beneficios" class="form-control"/>
                 <span asp-validation-for="beneficios" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="area" class="control-label">Área de atuação</label>
-                <input asp-for="area" class="form-control" />
+                <label asp-for="area" class="control-label text-light">Área de atuação</label>
+                <input asp-for="area" class="form-control"/>
                 <span asp-validation-for="area" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="escolaridade" class="control-label">Nível de escolaridade</label>
-                <input asp-for="escolaridade" class="form-control" />
+                <label asp-for="escolaridade" class="control-label text-light">Nível de escolaridade</label>
+                <input asp-for="escolaridade" class="form-control" value="Escolaridade"/>
                 <span asp-validation-for="escolaridade" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="experiencia" class="control-label">Experiência desejada</label>
-                <input asp-for="experiencia" class="form-control" />
+                <label asp-for="experiencia" class="control-label text-light">Experiência desejada</label>
+                <input asp-for="experiencia" class="form-control"  value="Anos de experiencia desejado"/>
                 <span asp-validation-for="experiencia" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="idiomas" class="control-label">Idiomas necessários e seus níveis</label>
-                <input asp-for="idiomas" class="form-control" />
+                <label asp-for="idiomas" class="control-label text-light">Idiomas necessários e seus níveis</label>
+                <input asp-for="idiomas" class="form-control" value="Idiomas" />
                 <span asp-validation-for="idiomas" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="uimg" class="control-label"></label>
+                <label asp-for="uimg" class="control-label text-light">Imagem divulgação de vaga</label>
                 <input asp-for="uimg" type="file" class="form-control" />
                 <span asp-validation-for="uimg" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="idEmpresa" class="control-label">ID da Empresa</label>
-                <input asp-for="idEmpresa" class="form-control" />
+                <label asp-for="idEmpresa" class="control-label text-light">ID da Empresa</label>
+                <input asp-for="idEmpresa" class="form-control" value="Id Empresa" />
                 <span asp-validation-for="idEmpresa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <button class="btn btn-outline-primary m-3" asp-action="Vagas">Todas as vagas</button>
+                <button class="btn btn-outline-primary m-3" asp-action="Index">Todas as vagas</button>
                 <input type="submit" value="Cadastrar" class="btn btn-primary m-3" />
             </div>
         </form>

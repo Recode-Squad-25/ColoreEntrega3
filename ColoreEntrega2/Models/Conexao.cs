@@ -9,7 +9,6 @@ namespace ColoreEntrega2.Models
         {
 
         }
-        public DbSet<Usuario> usuario { get; set; }
         public DbSet<Curriculo> curriculo { get; set; }
         public DbSet<Empresa> empresa { get; set; }
         public DbSet<Vagas> vagas { get; set; }

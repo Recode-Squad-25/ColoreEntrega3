@@ -8,49 +8,46 @@
 
 <h4>Preencha os dados da empresa:</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="register-cont container-fluid row">
+    <div class="col-md-4 register-cont container-fluid">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="nome" class="control-label"></label>
+                <label asp-for="nome" class="control-label text-light">Nome da Empresa</label>
                 <input asp-for="nome" class="form-control" />
                 <span asp-validation-for="nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
+                <label asp-for="email" class="control-label text-light">E-mail</label>
                 <input asp-for="email" class="form-control" />
                 <span asp-validation-for="email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="senha" class="control-label"></label>
-                <input asp-for="senha" class="form-control" type="password"/>
+                <label asp-for="senha" class="control-label text-light">Senha</label>
+                <input asp-for="senha" class="form-control" type="password" />
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="telefone" class="control-label"></label>
+                <label asp-for="telefone" class="control-label text-light">Telefone</label>
                 <input asp-for="telefone" class="form-control" />
                 <span asp-validation-for="telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="cnpj" class="control-label"></label>
+                <label asp-for="cnpj" class="control-label text-light">CNPJ</label>
                 <input asp-for="cnpj" class="form-control" />
                 <span asp-validation-for="cnpj" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="image" class="control-label"></label>
+                <label asp-for="image" class="control-label text-light">Logo Empresa</label>
                 <input asp-for="image" type="file" class="form-control" />
                 <span asp-validation-for="image" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <button class="btn btn-outline-primary m-3" asp-action="Index">Empresas</button>
                 <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Empresas">Lista todas as empresas</a>
 </div>
 
 @section Scripts {
